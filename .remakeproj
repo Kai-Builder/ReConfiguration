@@ -1,0 +1,7 @@
+{
+  "project_name": "My Project",
+  "compiler": "relang.exe",
+  "build_command": "echo Thanks For Using my Program!",
+  "repo": "github",
+  "auth": "none"
+}

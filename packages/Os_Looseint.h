@@ -1,0 +1,14 @@
+//
+// Created by seymo on 2/4/2021.
+//
+
+#ifndef LASTMULTICONFIGLIBRARY_OS_LOOSEINT_H
+#define LASTMULTICONFIGLIBRARY_OS_LOOSEINT_H
+
+
+class Os_Looseint {
+
+};
+
+
+#endif //LASTMULTICONFIGLIBRARY_OS_LOOSEINT_H

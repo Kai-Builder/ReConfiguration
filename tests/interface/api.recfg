@@ -1,0 +1,12 @@
+export api.web.webapi
+
+api = https://www.example.com/api/id:ID
+; Extracts an ID from ID In example.com API.
+
+; Bind func To Bind API.
+func(bindto:api)
+; Get Library Return.
+lib = get(libCReturn)
+
+
+return(->api_c)

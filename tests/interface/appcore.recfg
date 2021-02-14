@@ -1,0 +1,115 @@
+; THE APPCORE MODULE
+
+export appcore.module
+
+
+a = appcore:core
+
+b = appcore:GetDistantType(model)
+
+c = appcore:while(true)
+
+d = export:appcore(variable)
+
+
+; APPCORE Comes with built-in exception handling.
+
+; exception = appcore:raise(ErrorType)
+
+; Dynamic Exceptions are run Real-Time And are run with static PIDs.
+; appcore:raise(xxxxx) <- Run Real Time
+
+exception = appcore:raise(Builtin)
+
+appcore:raiseexception(notFound)
+
+; FULL LIBRARY
+; TODO: Add More Functions to this list!
+
+# appcore:help
+# appcore:reload()
+# appcore:flush(<recfg.Integer>)
+# appcore:GetAllInstancesof(storagetype, count?)
+# appcore:GetAppCoreStatus()
+# appcore:print(<recfg.BackedString>)
+#
+#
+# Library Functions
+#
+# appcore:app(name)
+#
+# ---------------------------------
+# Handler Is a part of the mixins Fork of the ReConfig Base Standard.
+# Handler Comes in appcore:handler(<recfg.NonBackedString>) OR handler(<appcore.System>)
+func = handler(appcore)
+#
+# -------------------------------------------------
+# EXPORTING & PACKAGING
+# Exports are ways to export your module so it can be packaged with the rpm.
+# Packaging is a way to tell the compiler that
+# your program is ready to be binary-ified And Shipped to Another Compiler.
+package some.package.name
+# Packages typically have Java-syntax-type names and are a builtin functionality.
+package package.to.be.exported
+package net.yoursite.you.packagename
+package core.coresite.coreknowledge
+package basic.init.core
+# Exporting Is a way to tell the compiler that this is the Script that
+# Will be compiled.
+export appcore
+export appcore.modules
+export appcore.modules.base
+export appcore.modules.base.get
+export appcore.modules.base.full
+export basic.modules
+export reconfig.rewrite
+export reconfig.rewrite.is.*
+export this.script
+export keywords.module
+export recfg.lib.*
+export recfg.rewrite
+export recfg.rewrite.full.*
+export full.op
+export recfg
+export script
+export external
+export external.scripts
+export base.scripts
+export base.scripts.external
+export base.engine
+export JSON
+export file
+export file.io
+export module_test
+# Packages and Exports work together to make a clean, easy to use interface, under the hood.
+package exports.export.main
+export appcore
+export appcore.modules
+export appcore.modules.base
+export appcore.modules.base.get
+export appcore.modules.base.full
+export basic.modules
+export reconfig.rewrite
+export reconfig.rewrite.is.*
+export this.script
+export keywords.module
+export recfg.lib.*
+export recfg.rewrite
+export recfg.rewrite.full.*
+export full.op
+export recfg
+export script
+export external
+export external.scripts
+export base.scripts
+export base.scripts.external
+export base.engine
+export JSON
+export file
+export file.io
+export module_test
+package end.exports
+# Reconfig Is a Fast Language Due to it being separated into multiple parsers.
+# As of Reconfig18, Users can Now Use Parser Flags to compile Using certain Compilers.
+# This Feature iS useful for conflicting of mods.
+# It has Been Teased that reconfig19 will contain Custom flags inside of the script itself

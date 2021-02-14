@@ -1,0 +1,12 @@
+@module tests.async
+
+async(wait)
+; Remade Config ASYNC Handling
+a = 1
+b = 2
+
+func(function:bind)
+
+multiply(a&&b)
+
+return(->a*b)

@@ -1,0 +1,9 @@
+@module tests.classdef
+
+printf(hello)
+
+a = 30
+
+async:printvar(a)
+
+return(20)
