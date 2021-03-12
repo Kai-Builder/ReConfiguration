@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/seymo/Desktop/Colorama/colorama/sys.h
+iostream
+-
+windows.h
+-
+winbase.h
+-
+fstream
+-
+string
+-
+algorithm
+-
+Lmcons.h
+-
+
+C:/Users/seymo/Desktop/Colorama/test.cpp
+colorama/sys.h
+C:/Users/seymo/Desktop/Colorama/colorama/sys.h
+

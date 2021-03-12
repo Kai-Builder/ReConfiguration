@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/seymo/Desktop/BetterXML/main.cpp
+iostream
+-
+rapidxml.hpp
+-
+rapidxml_utils.hpp
+-
+JSONSupercharged/json.h
+-
+Colorama/clr/sys.h
+-
+xml/xml.h
+C:/Users/seymo/Desktop/BetterXML/xml/xml.h
+
+C:/Users/seymo/Desktop/BetterXML/xml/xml.h
+rapidxml_utils.hpp
+-
+rapidxml.hpp
+-
+iostream
+-
+stdinengine/alloc.h
+-
+Colorama/clr/sys.h
+-
+

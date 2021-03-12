@@ -1,0 +1,3 @@
+C:/Users/seymo/Desktop/BetterXML/cmake-build-debug/CMakeFiles/BetterXML.dir
+C:/Users/seymo/Desktop/BetterXML/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/seymo/Desktop/BetterXML/cmake-build-debug/CMakeFiles/rebuild_cache.dir

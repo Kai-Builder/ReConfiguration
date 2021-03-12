@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\mtest.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\mtest.dir/objects.a @CMakeFiles\mtest.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -static -Wl,--whole-archive CMakeFiles\mtest.dir/objects.a -Wl,--no-whole-archive  -o ..\tests\mtest.exe -Wl,--out-implib,libmtest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\mtest.dir\linklibs.rsp

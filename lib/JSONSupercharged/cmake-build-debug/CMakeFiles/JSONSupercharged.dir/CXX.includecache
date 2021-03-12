@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/seymo/Desktop/JSONSupercharged/json.h
+iostream
+-
+json.hpp
+-
+fstream
+-
+cstdio
+-
+vector
+-
+
+C:/Users/seymo/Desktop/JSONSupercharged/main.cpp
+json.h
+C:/Users/seymo/Desktop/JSONSupercharged/json.h
+Colorama/clr/sys.h
+-
+
